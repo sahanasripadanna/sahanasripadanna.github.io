@@ -1,0 +1,32 @@
+h1{
+	color: #C70039;
+}
+
+/*selecting an id*/
+#peachtext{
+	color: #FF8369;
+}
+
+#lilactext{
+	color: #E995ED;
+}
+
+#yellowbackground{
+	background-color: #FFFCC5;
+}
+#food{
+	width: 20%;
+
+}
+div{
+	background-color: #FFC300;
+}
+
+span{
+	color:#F90A8C;
+}
+/*selecting a class*/
+.pinktext{
+	color: #FF80BC;
+	font-family: cursive;
+}
