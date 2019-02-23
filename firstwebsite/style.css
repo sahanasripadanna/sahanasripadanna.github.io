@@ -1,0 +1,8 @@
+/*we have to link the stylesheet to the html file*/
+
+/*select an html element and give it some style*/
+
+h1{
+	color: darkgoldenrod;
+	font-family: Helvetica;
+}
