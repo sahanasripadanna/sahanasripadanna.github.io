@@ -1,0 +1,92 @@
+h1{
+	font-family: 'Overpass', sans-serif;
+	color: #E6F0FB;
+	font-size: 30px;
+}
+
+a{
+	font-family: 'Overpass', sans-serif;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	color: #E6F0FB;
+	font-size: 20px;
+}
+
+nav{
+	text-align: center;
+	display: inline;
+	position: fixed;
+	background-color: #FFFAFB;
+	width: 100%;
+}
+
+
+
+nav li{
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+}
+
+nav a{
+	color: #274C77;
+}
+
+nav li:hover {
+  background-color: #E6F0FB;
+  width: 100%;
+}
+
+.active{
+	background-color: #7DE2D1;
+}
+
+img{
+	display: block;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+
+#t10{
+	/*background-color: #7DE2D1;*/
+	background-image: url('beach1.jpg');
+  	background-size: cover;
+	height: 600px;
+	padding: 50px;
+}
+
+#turquoise{
+	/*background-color: #339989;*/
+	background-color: #45B8AC;
+	height: 600px;
+	padding: 50px;
+}
+#t13{
+	background-color: #274C77;
+	background-image: url('river.jpg');
+  	background-size: cover;
+	height: 600px;
+	padding: 50px;
+}
+
+#emerald{
+	/*background-color: #8EB1C7;*/
+	background-color: #009B77;
+	height: 600px;
+	padding: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
