@@ -1,0 +1,62 @@
+
+/*body { 
+	padding-top: 70px; 
+}
+*/
+a:link{
+	text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#about{
+	height: 750px;
+	padding: 50px;
+	background-color: #096D49;
+	text-align: center;
+}
+
+#gallery{
+	position: relative;
+	background-color: blue;
+	height: 600px;
+	padding: 50px;
+	overflow-y: scroll;
+}
+
+#contact{
+	background-color: black;
+	height: 600px;
+	padding: 50px;
+}
+
+#name{
+	padding-top: 300px;
+	/*margin-right: auto;*/
+/*	display:block;
+	margin-right: auto;
+	margin-left: auto;
+*/
+}
+
+
+h1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.btn{
+	
+}
+
+.coding{
+	width= 1112px 
+	height=708px
+}
+
+/*.navbar{
+	position: fixed;
+}*/
