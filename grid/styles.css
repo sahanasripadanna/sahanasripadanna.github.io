@@ -1,10 +1,10 @@
 .container{
     display: grid;
-    grid-template-columns: auto auto auto;
+   /* grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 10px;*/
     background-color: antiquewhite;
-    padding: 10px;
+/*    padding: 10px;*/
 }
 .container > div{
     background-color: cadetblue;
@@ -13,17 +13,10 @@
     font-size: 30px;
     height: 400px;
 }
-.header{
-    grid-column: span 3;
-   
-}
-.footer{
-    grid-column: span 3;
-    grid-row: span 2;
-}
-.col-sm{
+
+#bigger{
     grid-column: span 2;
-    }
+}
 img{
     height: 400px;
 }
