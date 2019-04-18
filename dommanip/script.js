@@ -1,4 +1,7 @@
 
+document.getElementById('div1').style.backgroundColor = "pink";
+
+document.getElementById('div2').style.backgroundColor = "aqua";
 
 function getHeaders(){
 
