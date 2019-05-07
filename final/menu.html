@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
@@ -45,7 +47,7 @@
 <h1>Menu</h1>
 
 <div class="accordion" id="accordionExample">
-    <div class="card">
+  <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBagel" aria-expanded="true" aria-controls="collapseBagel">
@@ -55,31 +57,65 @@
     </div>
     <!--  the element with the class collapse show will appear open first -->
     <div id="collapseBagel" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-      <h6>Plain</h6>
-      <h6>Sesame</h6>
-      <h6>Poppy Seed</h6>
-      <h6>Blueberry</h6>
-      <h6>Pesto Cheddar</h6>
-      <h6>Cheddar Cheese</h6>
-      <h6>Jalapeño Cheddar</h6>
-      <h6>Asiago Cheese</h6>
-      <h6>Cinnamon Raisin</h6>
-      <h6>Egg</h6>
-      <h6>Tri-seed</h6>
-      <h6>Chocolate</h6>
-      <h6>Banananut</h6>
-      <h6>Whole Wheat Cinnamon Raisin</h6>
-      <h6>Cinnamon Sugar</h6>
-      <h6>Jalapeño</h6>
-      <h6>Onion</h6>
-      <h6>Combo</h6>
-      <h6>Garlic</h6>
-      <h6>Salt</h6>
-      <h6>Whole Wheat</h6>
-      <h6>Whole Wheat Sesame</h6>
-      <h6>High Fiber</h6>
-      <h6>Rye Pumpernickel</h6>
+      <div class="card-body" id="bagelz">
+        <div id="left">
+          <h6>Plain</h6>
+          <h6>Sesame</h6>
+          <h6>Poppy Seed</h6>
+          <h6>Blueberry</h6>
+          <h6>Pesto Cheddar</h6>
+          <h6>Cheddar Cheese</h6>
+          <h6>Jalapeño Cheddar</h6>
+          <h6>Asiago Cheese</h6>
+          <h6>Cinnamon Raisin</h6>
+          <h6>Egg</h6>
+          <h6>Tri-seed</h6>
+          <h6>Chocolate</h6>
+        </div>
+        <div id="right">
+          <h6>Banananut</h6>
+          <h6>Whole Wheat Cinnamon Raisin</h6>
+          <h6>Cinnamon Sugar</h6>
+          <h6>Jalapeño</h6>
+          <h6>Onion</h6>
+          <h6>Combo</h6>
+          <h6>Garlic</h6>
+          <h6>Salt</h6>
+          <h6>Whole Wheat</h6>
+          <h6>Whole Wheat Sesame</h6>
+          <h6>High Fiber</h6>
+          <h6>Rye Pumpernickel</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSpread" aria-expanded="true" aria-controls="collapseSpread">
+          Spreads
+        </button>
+      </h2>
+    </div>
+    <!--  the element with the class collapse show will appear open first -->
+    <div id="collapseSpread" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body" id="bagelz">
+        <div id="left">
+          <h6>Plain</h6>
+          <h6>Chives</h6>
+          <h6>Garden Veggie</h6>
+          <h6>Cucumber Scallion</h6>
+          <h6>Strawberry</h6>
+          <h6>Blueberry</h6>
+        </div>
+        <div id="right">
+          <h6>Honey</h6>
+          <h6>Tomato Basil</h6>
+          <h6>Garlic</h6>
+          <h6>Jalapeño</h6>
+          <h6>Green Olives</h6>
+          <h6>Lox Spread</h6>
+        </div>
       </div>
     </div>
   </div>
@@ -93,7 +129,7 @@
     </div>
 
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body" id ="bagelz">
+      <div class="card-body">
       <h6> 1. Bacon Omelette </h6> 
         <p>Crispy Bacon, Egg & Cheese </p>
       <h6>2. Hamelette </h6>
@@ -135,46 +171,46 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        <p>  21.  Tuna Salad
-             Lettuce(or Sprouts), Tomato &
+        <h6>21. Tuna Salad</h6>
+            <p>Lettuce (or Sprouts), Tomato &
             Cucumber </p>
-        <p>  22.  Lox Bagel
-                    Premium Nova Lox, Cream Cheese, Tomato, Lettuce & Red Onion
-                    **** Open Faced Lox, $3.00 Extra **** </p>
-        <p>  23.  Lox and Cream Cheese 
-                    Premium Nova Lox & Cream Cheese
-                    **** Open Faced Lox, $3.00 Extra **** </p>
-        <p>  24.  Chicken Salad 
-                    Lettuce (or Sprouts), Tomato &
+        <h6>22. Lox Bagel</h6>
+            <p>Premium Nova Lox, Cream Cheese, Tomato, Lettuce & Red Onion</p>
+            <p>**** Open Faced Lox, $3.00 Extra **** </p>
+        <h6>23. Lox and Cream Cheese</h6>
+            <p>Premium Nova Lox & Cream Cheese</p>
+            <p>**** Open Faced Lox, $3.00 Extra **** </p>
+        <h6>24. Chicken Salad</h6>
+            <p>Lettuce (or Sprouts), Tomato &
                     Cucumber </p>
-        <p>  25.  Turkey Sandwich
-                 Lettuce (or Sprouts), Tomato &
+        <h6>25. Turkey Sandwich</h6>
+              <p>Lettuce (or Sprouts), Tomato &
                  Cucumber </p>
-        <p>  26.  Ham & Cheese
-                 Ham, Swiss Cheese, Lettuce (or
+        <h6>26. Ham & Cheese</h6>
+              <p>Ham, Swiss Cheese, Lettuce (or
                  Sprouts), Cucumber, Mayo & Mustard </p>
-        <p>  27.  Premium Chicken Breast 
-                Chicken Breast, Lettuce (or Sprouts),
+        <h6>27. Premium Chicken Breast</h6> 
+              <p>Chicken Breast, Lettuce (or Sprouts),
                 Tomato & Cucumber </p>
-        <p>  28.  Avocado Turkey Salad
-                Turkey, Green Onion, Avocado,
+        <h6>28. Avocado Turkey Salad</h6>
+              <p>Turkey, Green Onion, Avocado,
                 Lettuce, Tomato & Cheese </p>
-        <p>  29.  Club Sandwich
-                 Ham, Turkey, Bacon, Cheese,
+        <h6>29. Club Sandwich</h6>
+              <p>Ham, Turkey, Bacon, Cheese,
                  Lettuce, Tomato, Mayo & Mustard </p>
-        <p>  30.  B.L.T.
-                 Bacon, Lettuce, Tomato & Mayo </p>
-        <p>  31.  Turkey Bacon
-                 Bacon, Lettuce, Tomato & Mayo </p>
-        <p>  32.  Egg Salad
-                 Lettuce, Tomato & Mayo </p>
-        <p>  33.  Baja Chicken
-                Chicken Breast, Bacon, Cheese, Lettuce, Tomato, Cucumber, Jalapeno & Mayo
-        <p>  34.  Roast Beef 
-                Swiss Cheese, Roast Beef, Lettuce, Tomato,        Cucumber & Mayo  </p>  
-        <p>  36.  Hummus Sandwich
-                 Lettuce, Tomato, Cucumber & Sprouts </p>
-        <p>  37.  Vegetarian
+        <h6>30. B.L.T.</h6>
+              <p>Bacon, Lettuce, Tomato & Mayo </p>
+        <h6>31. Turkey Bacon</h6>
+              <p>Bacon, Lettuce, Tomato & Mayo </p>
+        <h6>32. Egg Salad</h6>
+              <p>Lettuce, Tomato & Mayo </p>
+        <h6>33. Baja Chicken</h6>
+              <p>Chicken Breast, Bacon, Cheese, Lettuce, Tomato, Cucumber, Jalapeno & Mayo</p>
+        <h6>34. Roast Beef</h6> 
+              <p>Swiss Cheese, Roast Beef, Lettuce, Tomato, Cucumber & Mayo  </p>  
+        <h6>36. Hummus Sandwich</h6>
+              <p> Lettuce, Tomato, Cucumber & Sprouts </p>
+        <h6>37. Vegetarian </h6>
                 Veggie Cream Cheese, Lettuce(or
                 Sprouts), Tomato & Cucumber </p>
       </div>

@@ -1,14 +1,48 @@
+a{
+	font-family: 'Poppins', sans-serif;
+}
 
-.card-body{
-	text-align: center;
+h1{
+	font-family: 'Poppins', sans-serif;
+}
+
+h3{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
 }
 
 #bagelz{
 	display: flex;
-	
+	justify-content: center;
 }
 
 #hours{
 	text-align: center;
 	margin: auto;
+}
+
+#yelp{
+	height: 40px;
+}
+
+.card-body{
+	text-align: center;
+	background-color: #FCECC9;
+}
+
+.card-header{
+	font-family: 'Poppins', sans-serif;
+	background-color: #445E93;
+}
+
+button{
+	color: white;
 }
