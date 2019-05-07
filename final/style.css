@@ -1,6 +1,11 @@
 
-#menu{
-	margin: 30px;
+.card-body{
+	text-align: center;
+}
+
+#bagelz{
+	display: flex;
+	
 }
 
 #hours{
