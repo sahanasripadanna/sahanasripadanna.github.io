@@ -1,3 +1,16 @@
+.btn{
+	color: white;
+	font-size: 20px;
+}
+
+iframe{
+	justify-content: center;
+}
+
+nav{
+	background-color: #F15946;
+}
+
 a{
 	font-family: 'Poppins', sans-serif;
 }
@@ -43,6 +56,3 @@ p{
 	background-color: #445E93;
 }
 
-button{
-	color: white;
-}
