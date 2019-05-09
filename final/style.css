@@ -3,8 +3,35 @@
 	font-size: 20px;
 }
 
-iframe{
+.topt{
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+#title{
+	background-image: url("https://s3-media3.fl.yelpcdn.com/bphoto/AFfSxxAc-ZtMZ2br2BjywQ/o.jpg");
+	background-size: cover;
+	height: 600px;
+/*	background-color: blue;*/
+/*	text-align: center;*/
+	display: flex;
 	justify-content: center;
+
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+#heading{
+	color: white;
+	margin-top: 250px;
+	font-size: 80px
+}
+
+#map{
+	display: block;
+	margin: auto;
 }
 
 nav{
@@ -35,20 +62,26 @@ p{
 #bagelz{
 	display: flex;
 	justify-content: center;
+	color: white;
 }
 
 #hours{
 	text-align: center;
 	margin: auto;
+	margin-bottom: 30px
 }
 
 #yelp{
-	height: 40px;
+	height: 50px;
+}
+
+#fb{
+	height: 65px;
 }
 
 .card-body{
 	text-align: center;
-	background-color: #FCECC9;
+	background-color: #7EB2DD;
 }
 
 .card-header{
