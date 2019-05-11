@@ -57,17 +57,12 @@ p{
 	margin: 50px;
 }
 
-#videos{
+.gallerywrapper{
 	margin: 30px;
 	padding: 30px;
 	background-color: black;
 }
 
-#code{
-	margin: 30px;
-	padding: 30px;
-	background-color: black;
-}
 
 h1{
 	padding-top: 10px;
