@@ -19,7 +19,7 @@ p{
 }
 
 #about{
-	height: 750px;
+	height: 700px;
 	padding: 50px;
 	background-color: #096D49;
 	text-align: center;
@@ -28,9 +28,9 @@ p{
 #gallery{
 	position: relative;
 	background-color: white;
-	height: 600px;
+	height: 800px;
 	padding: 50px;
-	overflow-y: scroll;
+/*	overflow-y: scroll;*/
 }
 
 #contact{
@@ -73,6 +73,7 @@ h1{
 
 h2{
 	color: white;
+	font-family: 'Poppins',  sans-serif;
 }
 
 h4{
@@ -88,9 +89,18 @@ h4{
     );
 }
 
+.modal-header{
+	font-family: 'Poppins', sans-serif;
+}
+
+img{
+	width: 400px;
+}
+
 .modal-body{
 	display: block;
 	margin: auto;
+	font-family: 'Lato', sans-serif;
 }
 
 .card-title{

@@ -49,49 +49,40 @@
 
     <h1 id="title">recent projects</h1>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm" id = "white">
-          <div class="card">
-             <!--  <div class="card-header">
-                Featured
-              </div> -->
-              <div class="card-body">
-                <h5 class="card-title">Windchime Forest</h5>
-                <video src="windchimes.mov" height="150px" width=auto></video>
-                <!-- <iframe src="https://www.openprocessing.org/sketch/642814/embed/?plusEmbedHash=Y2RkMTAzYjc5MmYyMDcyNTAxOTlmZTBmNDc2YjUwOTJhZDU3MGZiOTU0MzMxMDBkOWRkYzkyMDM2YjBkNGFkYjNiYzZlMmFmYjU4NDM0YzY3MTI3Yjk2ZTJlOTFhNzZlNzcwY2M3OTMxMjRmZmRjNWI2MDMwMDZlNzFiOWEwN2RFblR6SzZYNGpCN3hwUXJMMmJqZEU0SmF1eUhxYVNoT1RiZ2lzdVVZQjE2VGVoVzBYZ1g4MC9wVnFpM2VUZzJtSzNMWHlBZnhSeVhJR0hXY250Ym9HQT09&plusEmbedTitle=true"class="coding"></iframe> -->
-                <p class="card-text">Interactive artwork created using p5.js</p>
-                <a href="https://www.openprocessing.org/sketch/642814/embed/?plusEmbedHash=Y2RkMTAzYjc5MmYyMDcyNTAxOTlmZTBmNDc2YjUwOTJhZDU3MGZiOTU0MzMxMDBkOWRkYzkyMDM2YjBkNGFkYjNiYzZlMmFmYjU4NDM0YzY3MTI3Yjk2ZTJlOTFhNzZlNzcwY2M3OTMxMjRmZmRjNWI2MDMwMDZlNzFiOWEwN2RFblR6SzZYNGpCN3hwUXJMMmJqZEU0SmF1eUhxYVNoT1RiZ2lzdVVZQjE2VGVoVzBYZ1g4MC9wVnFpM2VUZzJtSzNMWHlBZnhSeVhJR0hXY250Ym9HQT09&plusEmbedTitle=true" class="btn btn-primary">Play</a>
-              </div>
-            </div>
-        </div>
-        <div class="col-sm">
-            <div class="card">
-              <!-- <div class="card-header">
-                Featured
-              </div> -->
-              <div class="card-body">
-                <h5 class="card-title">Who Ate My Cake?</h5>
-                 <img src="cake.png" class="card-img-top" alt="...">
-                <p class="card-text">Interactive film with multiple endings created with Eko Studio</p>
-                <a href="https://video.helloeko.com/preview/Aj0YdM?url=%2F%2Fstage.helloeko.com%2Fprojects%2Fus-east-1%3A5ac319ab-8ee1-4a79-9423-3daffbd4087c%2F684b1200-4519-11e9-abe4-ad1d47c168c4%2Farchive%2Fpreview%2F1552665808384%2Fembed.html&autoplay=true" class="btn btn-primary">Play</a>
-              </div>
-            </div>
-        </div>
-        <div class="col-sm">
-                      <div class="card">
-             <!--  <div class="card-header">
-                Featured
-              </div> -->
-              <div class="card-body">
-                <h5 class="card-title">What's in a name?</h5>
-                 <img src="karen.png" class="card-img-top" alt="...">
-                <p class="card-text">Photography series documenting the stories behind our names</p>
-                <a href="https://www.instagram.com/p/BrBhYmenEQp/?utm_source=ig_web_copy_link" class="btn btn-primary">Play</a>
-                 </div>
-               </div>
-
-  
+ <div class="card-deck">
+  <div class="card">
+    <img src="unity.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Memory Walk</h5>
+      <p class="card-text">VR Project displaying a walk through a mother's memories down the Brooklyn Heights Promenade</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#unityModal">Play</button>
+    </div>
+    <div class="card-footer">
+      <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+    </div>
+  </div>
+    <div class="card">
+    <img src="chime.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Windchime Forest</h5>
+      <p class="card-text">Interactive audio visualization created with p5.js</p>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#chimeModal">Play</button>
+    </div>
+    <div class="card-footer">
+      <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+    </div>
+  </div>
+  <div class="card">
+    <img src="time.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Entropy Subway Time Interface</h5>
+      <p class="card-text">Creating an digital interface for subway displays tracking the train arrival timing using the concept of entropy</p>
+    </div>
+    <div class="card-footer">
+      <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+    </div>
+  </div>
+</div>
 
  </section>  
 
@@ -105,6 +96,42 @@
     <img src="">
 
  </section>
+
+ <div class="modal fade" id="unityModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Memory Walk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe width="750" height="415" src="https://www.youtube.com/embed/WwjRbkTgLcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="chimeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Windchime Forest</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://www.openprocessing.org/sketch/642814/embed/?plusEmbedHash=MWZmYmM3MzMwMmJmM2UwOTEzNDkxNmE2MWM4ZTZkMDc5ZjM2NjVmMWExYTM0ZmU4MmM3ZDA3ZjgxOThmYzA5ODBmZDYxNDY2NTdiMWI2YjlmMWY2ZDM4MmQ0ZjY4ODFjZWI4YzljNzNhMWNkNGVjNzE3NThmZWIyMTViZjIwNzVwQkJpQkJrd2FGSndqUGtzM2lsQ3ZRZkJvY3Yyc1BUM2tGZmJISG15d05jK1RGMzlEcGVKcHEwanMzeHZNM2VYQTZaN3VLK3hMSGZteXg0UkxXK2hodz09&plusEmbedTitle=true" width="800" height="600"></iframe>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
